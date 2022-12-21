@@ -1,0 +1,11 @@
+local gamelist = {
+    [994732206]  = "",
+    [1511883870] = "https://raw.githubusercontent.com/Natsuhanaki/RoyX_m/main/Shindolife"
+}
+local checkgame = gamelist[game.gameId]
+if gamelist[game.gameId] then 
+print (checkgame)
+    loadstring(game:HttpGet(checkgame))()
+else 
+game.Players.LocalPlayer:Kick("Not Game Support")
+end
