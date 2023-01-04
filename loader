@@ -1,9 +1,8 @@
 local gamelist = {
-    [994732206]  = "https://raw.githubusercontent.com/nomed-rin/loaders/main/bloxfruit",
+    [994732206]  = "bloxfruitLink เอาลิ้งมาวาง ",
+    [498490399] = ""
 }
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
     loadstring(game:HttpGet(checkgame))()
-else 
-game.Players.LocalPlayer:Kick("Not Game Support")
 end
