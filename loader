@@ -1,6 +1,6 @@
 local gamelist = {
-    [994732206]  = "bloxfruitLink เอาลิ้งมาวาง ",
-    [498490399] = ""
+    [994732206]  = "https://raw.githubusercontent.com/nomed-rin/loaders/main/bloxfruit",
+    [498490399] = "https://raw.githubusercontent.com/nomed-rin/loaders/main/madcity"
 }
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
